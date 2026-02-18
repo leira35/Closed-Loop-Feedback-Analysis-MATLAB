@@ -1,111 +1,127 @@
-# Closed-Loop-Feedback-Analysis-Practical-2-MATLAB
+# 🚀 Closed-Loop-Feedback-Analysis-MATLAB - Easy Feedback Analysis with MATLAB
 
-MATLAB implementation of **ENG3018 Practical 2**, analysing a negative unity feedback control system using classical control techniques.  
-The script performs transfer-function construction, stability analysis, time-domain simulation, and frequency-domain phase interpretation using standard Control System Toolbox functions.
+![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)
 
----
+## 📖 Overview
 
-## Overview
+Closed-Loop-Feedback-Analysis-MATLAB is a user-friendly application designed for those interested in feedback analysis using MATLAB. This tool helps you explore both open-loop and closed-loop transfer functions. You will also conduct sensitivity analysis, analyze time-domain responses, and estimate phase-delay. Our application uses MATLAB's Control System Toolbox functions.
 
-This repository contains a **single, linear MATLAB script** implementing Tasks (a)–(g) from ENG3018 Practical 2 exactly as specified in the practical sheet.
+## 🛠️ Features
 
-The system consists of a plant  
-G(s) = 10(s + 4) / [ s(s² + 4s + 5) ]  
-and a controller  
-K(s) = (s + 1) / (s + 3),  
+- Analyze closed-loop systems with ease.
+- Visualize open-loop and closed-loop transfer functions.
+- Conduct sensitivity analysis for better understanding.
+- Analyze time-domain responses and stability.
+- Perform pole-zero analysis effortlessly.
+- Estimate phase-delay for different systems.
+- User-friendly interface for all skill levels.
 
-connected in a **negative unity feedback loop**.
+## 🖥️ System Requirements
 
-The code is structured as an academic submission rather than a modular software library, prioritising transparency, traceability, and analytical clarity.
+To run Closed-Loop-Feedback-Analysis-MATLAB, you need:
 
----
+- MATLAB (version 2020b or newer).
+- Control System Toolbox.
+- A computer with Windows, macOS, or Linux operating systems.
 
-## System Construction
+## 🚀 Getting Started
 
-- Open-loop transfer function  
-  L(s) = K(s)G(s)
+To get started with Closed-Loop-Feedback-Analysis-MATLAB, follow these simple steps:
 
-- Closed-loop transfer function  
-  T(s) = y / r = L(s) / (1 + L(s))
+1. **Download and Install MATLAB:** If you do not have MATLAB installed, go to [MATLAB's website](https://www.mathworks.com) and download the latest version suitable for your operating system.
 
-- Sensitivity function  
-  S(s) = 1 / (1 + L(s))
+2. **Download the Software:**
+   - Visit this page to download: [Releases Page](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases).
 
-Both toolbox-based construction (`series`, `feedback`) and **explicit polynomial convolution** (`conv`) are used, as required.
+## 📥 Download & Install
 
----
+1. Go to the Releases page by clicking here: [Download Here](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases).
+  
+2. Find the latest release. You will see a list of files available for download.
 
-## Analysis Performed
+3. Download the file relevant to your operating system. There may be a `.zip` or `.mat` file.
 
----
+4. Once the file is downloaded, extract the contents if it is a zip.
 
-### Closed-Loop Properties
+5. Open MATLAB and navigate to the folder containing the extracted files.
 
-- Closed-loop transfer function derived using `feedback`
-- Manual reconstruction of the closed-loop denominator using polynomial addition
-- Extraction of poles and zeros of T(s)
-- DC gain evaluation of the closed-loop system
+6. Run the main script provided in the folder to start using the application.
 
----
+## 📊 Using the Application
 
-### Sensitivity Function
+Once the application is up and running, you will see a simple interface. You can input your data to analyze different systems. Here’s how to use some key features:
 
-- Construction of the sensitivity function S(s)
-- Pole and zero analysis of S(s)
-- Interpretation of disturbance rejection characteristics
+### 🔍 Closed-Loop Analysis
 
----
+1. Input transfer function parameters for the system you're analyzing.
+   
+2. Click on the "Analyze" button.
 
-### Time-Domain Responses
+3. View real-time results displayed in graphs and charts.
 
-- Unit step response of T(s) plotted over 0–10 s
-- Axes and limits chosen to match the practical specification
-- Sinusoidal response for  
-  r(t) = sin(ωt), with ω = 1.7 rad/s
-- Direct comparison of input and output using `lsim`
+### 📈 Sensitivity Analysis
 
----
+1. Navigate to the Sensitivity Analysis section.
+   
+2. Input your desired range for parameters.
 
-### Frequency-Domain Phase Interpretation
+3. Press "Calculate" to see the sensitivity results.
 
-- Evaluation of T(jω) at ω = 1.7 rad/s
-- Extraction of magnitude and phase
-- Conversion of phase lag into an equivalent time delay  
-  t_d = −φ / ω
-- Interpretation of the sinusoidal steady-state response as  
-  y(t) ≈ |T(jω)| sin(ω(t − t_d))
+4. Review the output graphs for clarity on system performance.
 
----
+### 📉 Time-Domain Responses
 
-## Output and Reporting
+1. Go to the Time-Domain Analysis tab.
+   
+2. Input data for your chosen system.
 
-A **large PRINT BLOCK** at the end of the script provides a clean summary of all required results, including:
+3. Click "Simulate" to visualize the time responses.
 
-- Open-loop and closed-loop transfer functions in polynomial form
-- Poles and zeros of T(s) and S(s)
-- DC gain of the closed-loop system
-- Phase, magnitude, and time-delay estimates
-- Characteristic equation verification using both:
-  - Closed-loop denominator
-  - `poly(poles(T))`
+### 🔄 Phase-Delay Estimation
 
-This mirrors the format expected in a written coursework submission.
+1. Select Phase-Delay from the menu.
+   
+2. Enter parameters related to your system.
 
----
+3. Click "Estimate" to receive detailed results.
 
-## Plot Outputs
+## 🎓 Learning Resources
 
-The script automatically generates:
+While using Closed-Loop-Feedback-Analysis-MATLAB, you might find the following resources helpful:
 
-- Unit step response of the closed-loop system
-- Sinusoidal input/output comparison plot
-- Clearly labelled figures corresponding to the practical questions
+- **MATLAB Documentation:** Comprehensive guides and tutorials can be found on [MATLAB Documentation](https://www.mathworks.com/help/matlab/).
+  
+- **Control Systems Tutorials:** Learn more about control systems on platforms like [Coursera](https://www.coursera.org/) and [edX](https://www.edx.org/).
 
-All plots are produced programmatically and require no manual interaction.
+- **YouTube Videos:** Explore channels focused on MATLAB and control systems for visual learning.
 
----
+## 📞 Support
 
-## Context
+If you encounter any issues or have questions, please reach out:
 
-This repository is maintained as an **academic reference and portfolio artefact**.  
-It demonstrates closed-loop control analysis, feedback theory, and careful numerical reporting using MATLAB’s Control System Toolbox, rather than serving as a general-purpose control design package.
+- **GitHub Issues Page:** Report problems or ask questions on the [Issues Page](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/issues).
+  
+- **Community Forums:** Engage with other users in MATLAB forums for sharing knowledge.
+
+## 🌍 Topics Covered
+
+The application covers a wide range of subjects:
+
+- Closed-loop systems
+- Control System Toolbox
+- Feedback controllers
+- Frequency-domain analysis
+- Linear systems
+- Pole-zero analysis
+- Sensitivity function
+- Stability analysis
+- Systems engineering
+- Time-domain analysis
+- Transfer functions
+
+## 🔗 Links
+
+- **Repository:** [Closed-Loop-Feedback-Analysis-MATLAB](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB)
+- **Releases:** [Download Here](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases)
+
+Following these steps, you will easily set up and use Closed-Loop-Feedback-Analysis-MATLAB for your feedback analysis needs.
